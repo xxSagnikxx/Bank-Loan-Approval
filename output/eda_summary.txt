@@ -1,0 +1,27 @@
+Quick EDA Findings:
+Missing values per column:
+loan_id                     0
+no_of_dependents            0
+education                   0
+self_employed               0
+income_annum                0
+loan_amount                 0
+loan_term                   0
+cibil_score                 0
+residential_assets_value    0
+commercial_assets_value     0
+luxury_assets_value         0
+bank_asset_value            0
+loan_status                 0
+
+Numeric features correlation with Loan_Status (abs sorted):
+cibil_score                 0.770518
+loan_term                  -0.113036
+no_of_dependents           -0.018114
+loan_id                     0.017685
+loan_amount                 0.016150
+luxury_assets_value        -0.015465
+income_annum               -0.015189
+residential_assets_value   -0.014367
+commercial_assets_value     0.008246
+bank_asset_value           -0.006778
